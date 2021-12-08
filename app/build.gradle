@@ -30,6 +30,10 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    // вводим этот текст чтоб легко связывать XML и котлин код
+    buildFeatures {
+        viewBinding true
+    }
 }
 
 dependencies {
